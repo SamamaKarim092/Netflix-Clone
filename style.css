@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/background.jpg);
+    height: 70vh;
+    position: relative;
+    /* background-size: max(1200vw , 100vw); */
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.69;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    margin: auto;
+
+}
+
+nav img {
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    padding: 8px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 62px);
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 23px;
+    text-align: center;
+}
+
+.hero .line1 {
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.hero .line2 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero .line3 {
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.get-started-button {
+    background-color: #E50914; /* Netflix-like red color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+    background-color: #b20710;
+}
+
+.main input {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 9px;
+    border: white;
+    background-color: rgba(111, 101, 101, 0.2);
+    margin-top: 23px;
+    margin-right: 100px;
+}
+
+
+.line {
+    height: 5px;
+    background-color: grey;
+    margin-top: -45px;
+}
